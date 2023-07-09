@@ -71,3 +71,11 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('~assets/fonts/RussoOne-Regular.ttf') format("ttf"),
+  url("~assets/fonts/RussoOne-Regular.ttf") format("ttf");
+}

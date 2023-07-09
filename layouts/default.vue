@@ -2,7 +2,10 @@
   <div class="wrapper">
     <BaseHeader />
     <main class="main">
-      <slot />
+      <SideBar />
+      <div class="content">
+        <slot />
+      </div>
     </main>
     <BaseFooter />
   </div>

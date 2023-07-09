@@ -1,23 +1,12 @@
 <template>
   <header class="header">
-    <nav>
-      <ul>
-        <li>
-          <NuxtLink to="aboba">aboba</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="aboba">aboba</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="aboba">aboba</NuxtLink>
-        </li>
-      </ul>
-    </nav>
+    <div class="header__inner">
+      <div class="header__logo">
+        <img src="" alt="">
+      </div>
+      <div class="header__profile">
+        Мой профиль
+      </div>
+    </div>
   </header>
 </template>
-
-<script>
-</script>
-
-<style>
-</style>
